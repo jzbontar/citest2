@@ -4,10 +4,10 @@ pipeline {
 	stages {
 		stage('build') {
 			steps {
-				sh 'python --version'
+				sh 'whoami'
 			}
 			steps {
-				sh 'whoami'
+				sh 'python --version'
 			}
 		}
 		stage('test') {
