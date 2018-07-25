@@ -6,6 +6,9 @@ pipeline {
 			steps {
 				sh 'python --version'
 			}
+			steps {
+				sh 'whoami'
+			}
 		}
 		stage('test') {
 			steps {
